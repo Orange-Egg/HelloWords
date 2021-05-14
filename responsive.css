@@ -1,0 +1,40 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .footer-list {
+      text-align: center;
+    }
+  
+}
+  
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+    .header-list {
+        /*margin: auto;*/
+        flex-direction: column;
+    }
+
+    .header-list li {
+        margin: 0 auto;
+    }
+
+    .asking h1 {
+        font-size: 28px;
+    }
+
+    .asking p {
+        font-size: 16px;
+    }
+
+    .footer-list {
+        text-align: center;
+      }
+    
+    #view_name {
+        width: 100px;
+    }
+
+    #message {
+        width: 300px;
+        height: 50px;
+    }
+}

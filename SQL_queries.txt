@@ -1,0 +1,25 @@
+==DBの作成==
+create database helloWordsDB;
+
+==DBの使用開始==
+use helloWordsDB;
+
+==アカウント管理用テーブルの作成==
+create table stockUser(
+ user_id INT AUTO_INCREMENT,
+ user_name TEXT NOT NULL,
+ user_address VARCHAR(30) NOT NULL,
+ user_password VARCHAR(30) NOT NULL,
+ enable TINYINT(1) NOT NULL,
+
+ PRIMARY KEY(user_id)
+);
+
+==投稿管理用テーブルの作成==
+CREATE TABLE stockPost(
+ id INT AUTO_INCREMENT,
+ view_name VARCHAR(100),
+ message TEXT,
+ post_date datetime,
+ PRIMARY KEY(id))
+default charset = utf8;

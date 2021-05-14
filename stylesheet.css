@@ -1,0 +1,170 @@
+/*-----------------------------------
+全体
+-----------------------------------*/
+
+body {
+  background-color: #e7e7eb;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+
+/*-----------------------------------
+ヘッダー
+-----------------------------------*/
+
+header {
+  background-color: #640125;
+  height: 65px;
+  width: 100%;
+  position :fixed; /*要素の位置を固定する*/
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  color: white;
+  font-size: 32px;
+  float: left;
+  z-index: 20;
+  margin: 0;
+} 
+
+#entnav li{
+  float: right;
+  list-style: none;  
+}
+
+.header-list a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;  
+  z-index: 20;
+  display: block;
+  padding: 0 25px;
+  transition: all 0.3s;
+}
+
+.header-list a:hover {
+  background-color: #522f60;
+}
+
+#header_user {
+  margin-bottom: 20px;
+}
+
+
+/*-----------------------------------
+メイン
+-----------------------------------*/
+
+.main {
+  margin: 75px 50px 30px 50px;
+}
+
+/*-----------------------------------
+webアプリの紹介エリア(top.php)
+-----------------------------------*/
+
+.introduce {  
+  background-image: url(images/868643_m.png);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 10px;
+  z-index: 10;
+}
+
+.asking {
+  color: white;
+  text-align: center;
+  z-index: 20;
+}
+
+.asking h1 {
+  
+  font-size: 40px;
+}
+
+.asking p {
+  font-size: 20px;
+}
+
+
+/*-----------------------------------
+投稿入力エリア(main.php)
+-----------------------------------*/
+
+/*
+form {
+  background-color: #b0e0e6;
+  border: hidden 1px;
+  border-radius: 10px;
+  padding: 20px;
+}
+*/
+
+.contents {
+  margin: 30px 0;
+}
+
+#message {
+  width: 500px;
+  height: 70px;
+}
+
+.buttons {
+  background-color: #522f60;
+  color: white;
+  font-size: 18px;
+  border: solid 1px #640125;
+  border-radius: 5px; 
+  width: 100px;
+  height: 30px;
+}
+
+
+/*-----------------------------------
+掲示板エリア
+-----------------------------------*/
+
+article {
+  background-color: white;
+  border: hidden 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.info h2 {
+  /*時刻表示を横に並べるためにインラインブロックとする*/
+  display: inline-block;
+  font-size: 16px;
+}
+
+.info time {
+  font-size: 12px;
+  color: #a9a9a9;
+}
+
+
+/*-----------------------------------
+フッター
+-----------------------------------*/
+.footer-list {
+  text-align: center;
+}
+
+.footer-list li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+.fb {
+  color: blue;
+}
+.ig {
+  color: deeppink;
+}
+.tw {
+  color: dodgerblue;
+}

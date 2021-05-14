@@ -1,0 +1,40 @@
+#container {
+    width: 400px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  table {
+    margin: 0 auto 0 auto;
+  }
+
+  th {
+    text-align: right;
+  }
+
+  .buttons {
+    margin: 10px auto 10px auto;
+    background-color: #522f60;
+    color: white;
+    font-size: 18px;
+    border: solid 1px #640125;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  a:hover {
+    /*マウスポインタが置かれたときの色を指定*/
+    color: #990099;
+  }
+
+  .err {
+    color: red;
+  }

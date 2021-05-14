@@ -1,0 +1,40 @@
+＜HelloWords_ファイルの分類まとめ＞
+
+    =libs=
+        3/1MENTA資料
+
+    =libs_2=
+        3/10MENTA資料
+
+    =DB連携=
+        DBconnect.php
+        (db.php)←クラスを使用して書き換えたい
+
+    =トップ&ユーザーログイン後の画面=
+        top.php
+        main.php
+
+    =ログイン時の画面=
+        login.php
+        login2.php
+
+    =ログアウト=
+        Logout.php
+
+    =新規登録画面=
+        newAccount.php
+        newAcount0.php
+
+    =新規登録時のDB連携=
+        checkAccount.php
+        confirmAccount.php(画面表示もあり)
+        registAccount.php
+
+    =CSS=
+        stylesheet.css
+        login.css
+        responsive.css
+
+    =テキストファイル=
+        SQL_queries.txt
+        files.txt
